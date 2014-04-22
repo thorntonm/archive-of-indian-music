@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170507931905FAA900317EAD /* LoadingCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 170507921905FAA900317EAD /* LoadingCellTableViewCell.m */; };
+		171642CF18F24ED1004F3ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171642CE18F24ED1004F3ED0 /* Foundation.framework */; };
+		171642D118F24ED1004F3ED0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171642D018F24ED1004F3ED0 /* CoreGraphics.framework */; };
+		171642D318F24ED1004F3ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171642D218F24ED1004F3ED0 /* UIKit.framework */; };
+		171642D918F24ED1004F3ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 171642D718F24ED1004F3ED0 /* InfoPlist.strings */; };
+		171642DB18F24ED1004F3ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 171642DA18F24ED1004F3ED0 /* main.m */; };
+		171642DF18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 171642DE18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.m */; };
+		171642E218F24ED1004F3ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171642E018F24ED1004F3ED0 /* Main.storyboard */; };
+		171642E518F24ED1004F3ED0 /* PlaylistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171642E418F24ED1004F3ED0 /* PlaylistsViewController.m */; };
+		171642E818F24ED1004F3ED0 /* GenresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171642E718F24ED1004F3ED0 /* GenresViewController.m */; };
+		171642EA18F24ED1004F3ED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171642E918F24ED1004F3ED0 /* Images.xcassets */; };
+		171642F118F24ED1004F3ED0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171642F018F24ED1004F3ED0 /* XCTest.framework */; };
+		171642F218F24ED1004F3ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171642CE18F24ED1004F3ED0 /* Foundation.framework */; };
+		171642F318F24ED1004F3ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171642D218F24ED1004F3ED0 /* UIKit.framework */; };
+		171642FB18F24ED1004F3ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 171642F918F24ED1004F3ED0 /* InfoPlist.strings */; };
+		171642FD18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 171642FC18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.m */; };
+		171AF03F18F253D0002A37FD /* Track+RestKitMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 171AF03E18F253D0002A37FD /* Track+RestKitMapping.m */; };
+		1755E124190601E500B273EE /* PlaylistAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755E123190601E500B273EE /* PlaylistAudioPlayer.m */; };
+		1755E1271906247F00B273EE /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 1755E1251906247F00B273EE /* next.png */; };
+		1755E1281906247F00B273EE /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 1755E1261906247F00B273EE /* previous.png */; };
+		176A68D018F9FB01000EAAE5 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176A68CF18F9FB01000EAAE5 /* TrackViewController.m */; };
+		176A68D218F9FDFC000EAAE5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176A68D118F9FDFC000EAAE5 /* AVFoundation.framework */; };
+		176A68DB18FA0E45000EAAE5 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 176A68D918FA0E45000EAAE5 /* pause.png */; };
+		176A68DC18FA0E45000EAAE5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 176A68DA18FA0E45000EAAE5 /* play.png */; };
+		178F3CD91904B36B007828D9 /* PagedSCPlaylists.m in Sources */ = {isa = PBXBuildFile; fileRef = 178F3CD81904B36B007828D9 /* PagedSCPlaylists.m */; };
+		17BE73DF18F250A8008FEEC0 /* String+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE73DD18F250A8008FEEC0 /* String+URLEncoding.m */; };
+		17BE73E818F250E6008FEEC0 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE73E318F250E6008FEEC0 /* Playlist.m */; };
+		17BE73EA18F250E6008FEEC0 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE73E718F250E6008FEEC0 /* Track.m */; };
+		17BE73F118F25102008FEEC0 /* Playlist+RestKitMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE73EC18F25102008FEEC0 /* Playlist+RestKitMapping.m */; };
+		17BE73F318F25102008FEEC0 /* SCRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BE73F018F25102008FEEC0 /* SCRestClient.m */; };
+		17C2E8091904D6040038B368 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C2E8081904D6040038B368 /* music.png */; };
+		17E642E618F7914B002AA765 /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E642E518F7914B002AA765 /* PlaylistViewController.m */; };
+		D07A618D0CF74A4F8A7BB500 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC17937A16794E1E9BC2D3B6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		171642F418F24ED1004F3ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171642C318F24ED1004F3ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171642CA18F24ED1004F3ED0;
+			remoteInfo = ArchiveOfIndianMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170507911905FAA900317EAD /* LoadingCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingCellTableViewCell.h; sourceTree = "<group>"; };
+		170507921905FAA900317EAD /* LoadingCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingCellTableViewCell.m; sourceTree = "<group>"; };
+		171642CB18F24ED1004F3ED0 /* ArchiveOfIndianMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiveOfIndianMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171642CE18F24ED1004F3ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		171642D018F24ED1004F3ED0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		171642D218F24ED1004F3ED0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		171642D618F24ED1004F3ED0 /* ArchiveOfIndianMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArchiveOfIndianMusic-Info.plist"; sourceTree = "<group>"; };
+		171642D818F24ED1004F3ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		171642DA18F24ED1004F3ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		171642DC18F24ED1004F3ED0 /* ArchiveOfIndianMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArchiveOfIndianMusic-Prefix.pch"; sourceTree = "<group>"; };
+		171642DD18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveOfIndianMusicAppDelegate.h; sourceTree = "<group>"; };
+		171642DE18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveOfIndianMusicAppDelegate.m; sourceTree = "<group>"; };
+		171642E118F24ED1004F3ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		171642E318F24ED1004F3ED0 /* PlaylistsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistsViewController.h; sourceTree = "<group>"; };
+		171642E418F24ED1004F3ED0 /* PlaylistsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistsViewController.m; sourceTree = "<group>"; };
+		171642E618F24ED1004F3ED0 /* GenresViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenresViewController.h; sourceTree = "<group>"; };
+		171642E718F24ED1004F3ED0 /* GenresViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenresViewController.m; sourceTree = "<group>"; };
+		171642E918F24ED1004F3ED0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		171642EF18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiveOfIndianMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		171642F018F24ED1004F3ED0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		171642F818F24ED1004F3ED0 /* ArchiveOfIndianMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArchiveOfIndianMusicTests-Info.plist"; sourceTree = "<group>"; };
+		171642FA18F24ED1004F3ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		171642FC18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveOfIndianMusicTests.m; sourceTree = "<group>"; };
+		171AF03D18F253D0002A37FD /* Track+RestKitMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Track+RestKitMapping.h"; path = "rest/Track+RestKitMapping.h"; sourceTree = "<group>"; };
+		171AF03E18F253D0002A37FD /* Track+RestKitMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Track+RestKitMapping.m"; path = "rest/Track+RestKitMapping.m"; sourceTree = "<group>"; };
+		1755E122190601E500B273EE /* PlaylistAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistAudioPlayer.h; sourceTree = "<group>"; };
+		1755E123190601E500B273EE /* PlaylistAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistAudioPlayer.m; sourceTree = "<group>"; };
+		1755E1251906247F00B273EE /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = images/next.png; sourceTree = "<group>"; };
+		1755E1261906247F00B273EE /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = previous.png; path = images/previous.png; sourceTree = "<group>"; };
+		176A68CE18F9FB01000EAAE5 /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		176A68CF18F9FB01000EAAE5 /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		176A68D118F9FDFC000EAAE5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		176A68D918FA0E45000EAAE5 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = images/pause.png; sourceTree = "<group>"; };
+		176A68DA18FA0E45000EAAE5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = images/play.png; sourceTree = "<group>"; };
+		178F3CD61904AE01007828D9 /* SCClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCClient.h; sourceTree = "<group>"; };
+		178F3CD71904B36B007828D9 /* PagedSCPlaylists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PagedSCPlaylists.h; path = rest/PagedSCPlaylists.h; sourceTree = "<group>"; };
+		178F3CD81904B36B007828D9 /* PagedSCPlaylists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PagedSCPlaylists.m; path = rest/PagedSCPlaylists.m; sourceTree = "<group>"; };
+		17BE73DC18F250A8008FEEC0 /* String+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "String+URLEncoding.h"; path = "util/String+URLEncoding.h"; sourceTree = "<group>"; };
+		17BE73DD18F250A8008FEEC0 /* String+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "String+URLEncoding.m"; path = "util/String+URLEncoding.m"; sourceTree = "<group>"; };
+		17BE73E218F250E6008FEEC0 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Playlist.h; path = rest/model/Playlist.h; sourceTree = "<group>"; };
+		17BE73E318F250E6008FEEC0 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Playlist.m; path = rest/model/Playlist.m; sourceTree = "<group>"; };
+		17BE73E618F250E6008FEEC0 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Track.h; path = rest/model/Track.h; sourceTree = "<group>"; };
+		17BE73E718F250E6008FEEC0 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Track.m; path = rest/model/Track.m; sourceTree = "<group>"; };
+		17BE73EB18F25102008FEEC0 /* Playlist+RestKitMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Playlist+RestKitMapping.h"; path = "rest/Playlist+RestKitMapping.h"; sourceTree = "<group>"; };
+		17BE73EC18F25102008FEEC0 /* Playlist+RestKitMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Playlist+RestKitMapping.m"; path = "rest/Playlist+RestKitMapping.m"; sourceTree = "<group>"; };
+		17BE73EF18F25102008FEEC0 /* SCRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCRestClient.h; path = rest/SCRestClient.h; sourceTree = "<group>"; };
+		17BE73F018F25102008FEEC0 /* SCRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCRestClient.m; path = rest/SCRestClient.m; sourceTree = "<group>"; };
+		17C2E8081904D6040038B368 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music.png; path = images/music.png; sourceTree = "<group>"; };
+		17E642E418F7914B002AA765 /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistViewController.h; sourceTree = "<group>"; };
+		17E642E518F7914B002AA765 /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistViewController.m; sourceTree = "<group>"; };
+		EA25DDA0148346A28E39882E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EC17937A16794E1E9BC2D3B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171642C818F24ED1004F3ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176A68D218F9FDFC000EAAE5 /* AVFoundation.framework in Frameworks */,
+				171642D118F24ED1004F3ED0 /* CoreGraphics.framework in Frameworks */,
+				171642D318F24ED1004F3ED0 /* UIKit.framework in Frameworks */,
+				171642CF18F24ED1004F3ED0 /* Foundation.framework in Frameworks */,
+				D07A618D0CF74A4F8A7BB500 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171642EC18F24ED1004F3ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171642F118F24ED1004F3ED0 /* XCTest.framework in Frameworks */,
+				171642F318F24ED1004F3ED0 /* UIKit.framework in Frameworks */,
+				171642F218F24ED1004F3ED0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171642C218F24ED1004F3ED0 = {
+			isa = PBXGroup;
+			children = (
+				171642D418F24ED1004F3ED0 /* ArchiveOfIndianMusic */,
+				171642F618F24ED1004F3ED0 /* ArchiveOfIndianMusicTests */,
+				171642CD18F24ED1004F3ED0 /* Frameworks */,
+				171642CC18F24ED1004F3ED0 /* Products */,
+				EA25DDA0148346A28E39882E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		171642CC18F24ED1004F3ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171642CB18F24ED1004F3ED0 /* ArchiveOfIndianMusic.app */,
+				171642EF18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171642CD18F24ED1004F3ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176A68D118F9FDFC000EAAE5 /* AVFoundation.framework */,
+				171642CE18F24ED1004F3ED0 /* Foundation.framework */,
+				171642D018F24ED1004F3ED0 /* CoreGraphics.framework */,
+				171642D218F24ED1004F3ED0 /* UIKit.framework */,
+				171642F018F24ED1004F3ED0 /* XCTest.framework */,
+				EC17937A16794E1E9BC2D3B6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		171642D418F24ED1004F3ED0 /* ArchiveOfIndianMusic */ = {
+			isa = PBXGroup;
+			children = (
+				17BE73E018F250C7008FEEC0 /* SoundCloud */,
+				17BE73D918F25097008FEEC0 /* Util */,
+				171642D518F24ED1004F3ED0 /* Supporting Files */,
+				171642E918F24ED1004F3ED0 /* Images.xcassets */,
+				171642DD18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.h */,
+				171642DE18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.m */,
+				171642E018F24ED1004F3ED0 /* Main.storyboard */,
+				171642E318F24ED1004F3ED0 /* PlaylistsViewController.h */,
+				171642E418F24ED1004F3ED0 /* PlaylistsViewController.m */,
+				171642E618F24ED1004F3ED0 /* GenresViewController.h */,
+				171642E718F24ED1004F3ED0 /* GenresViewController.m */,
+				17E642E418F7914B002AA765 /* PlaylistViewController.h */,
+				17E642E518F7914B002AA765 /* PlaylistViewController.m */,
+				176A68CE18F9FB01000EAAE5 /* TrackViewController.h */,
+				176A68CF18F9FB01000EAAE5 /* TrackViewController.m */,
+				170507911905FAA900317EAD /* LoadingCellTableViewCell.h */,
+				170507921905FAA900317EAD /* LoadingCellTableViewCell.m */,
+				1755E122190601E500B273EE /* PlaylistAudioPlayer.h */,
+				1755E123190601E500B273EE /* PlaylistAudioPlayer.m */,
+			);
+			path = ArchiveOfIndianMusic;
+			sourceTree = "<group>";
+		};
+		171642D518F24ED1004F3ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176A68D318FA0D77000EAAE5 /* images */,
+				171642D618F24ED1004F3ED0 /* ArchiveOfIndianMusic-Info.plist */,
+				171642D718F24ED1004F3ED0 /* InfoPlist.strings */,
+				171642DA18F24ED1004F3ED0 /* main.m */,
+				171642DC18F24ED1004F3ED0 /* ArchiveOfIndianMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		171642F618F24ED1004F3ED0 /* ArchiveOfIndianMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				171642FC18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.m */,
+				171642F718F24ED1004F3ED0 /* Supporting Files */,
+			);
+			path = ArchiveOfIndianMusicTests;
+			sourceTree = "<group>";
+		};
+		171642F718F24ED1004F3ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				171642F818F24ED1004F3ED0 /* ArchiveOfIndianMusicTests-Info.plist */,
+				171642F918F24ED1004F3ED0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		176A68D318FA0D77000EAAE5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1755E1251906247F00B273EE /* next.png */,
+				1755E1261906247F00B273EE /* previous.png */,
+				17C2E8081904D6040038B368 /* music.png */,
+				176A68D918FA0E45000EAAE5 /* pause.png */,
+				176A68DA18FA0E45000EAAE5 /* play.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		17BE73D918F25097008FEEC0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				17BE73DC18F250A8008FEEC0 /* String+URLEncoding.h */,
+				17BE73DD18F250A8008FEEC0 /* String+URLEncoding.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		17BE73E018F250C7008FEEC0 /* SoundCloud */ = {
+			isa = PBXGroup;
+			children = (
+				17BE73E118F250D8008FEEC0 /* Model */,
+				178F3CD61904AE01007828D9 /* SCClient.h */,
+				17BE73EF18F25102008FEEC0 /* SCRestClient.h */,
+				178F3CD71904B36B007828D9 /* PagedSCPlaylists.h */,
+				17BE73F018F25102008FEEC0 /* SCRestClient.m */,
+				171AF03E18F253D0002A37FD /* Track+RestKitMapping.m */,
+				178F3CD81904B36B007828D9 /* PagedSCPlaylists.m */,
+				17BE73EB18F25102008FEEC0 /* Playlist+RestKitMapping.h */,
+				17BE73EC18F25102008FEEC0 /* Playlist+RestKitMapping.m */,
+				171AF03D18F253D0002A37FD /* Track+RestKitMapping.h */,
+			);
+			name = SoundCloud;
+			sourceTree = "<group>";
+		};
+		17BE73E118F250D8008FEEC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17BE73E218F250E6008FEEC0 /* Playlist.h */,
+				17BE73E318F250E6008FEEC0 /* Playlist.m */,
+				17BE73E618F250E6008FEEC0 /* Track.h */,
+				17BE73E718F250E6008FEEC0 /* Track.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171642CA18F24ED1004F3ED0 /* ArchiveOfIndianMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1716430018F24ED1004F3ED0 /* Build configuration list for PBXNativeTarget "ArchiveOfIndianMusic" */;
+			buildPhases = (
+				C53A5C964E41429489C8D460 /* Check Pods Manifest.lock */,
+				171642C718F24ED1004F3ED0 /* Sources */,
+				171642C818F24ED1004F3ED0 /* Frameworks */,
+				171642C918F24ED1004F3ED0 /* Resources */,
+				A6B8FA329A984849B8F72D5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiveOfIndianMusic;
+			productName = ArchiveOfIndianMusic;
+			productReference = 171642CB18F24ED1004F3ED0 /* ArchiveOfIndianMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		171642EE18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1716430318F24ED1004F3ED0 /* Build configuration list for PBXNativeTarget "ArchiveOfIndianMusicTests" */;
+			buildPhases = (
+				171642EB18F24ED1004F3ED0 /* Sources */,
+				171642EC18F24ED1004F3ED0 /* Frameworks */,
+				171642ED18F24ED1004F3ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171642F518F24ED1004F3ED0 /* PBXTargetDependency */,
+			);
+			name = ArchiveOfIndianMusicTests;
+			productName = ArchiveOfIndianMusicTests;
+			productReference = 171642EF18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171642C318F24ED1004F3ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ArchiveOfIndianMusic;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cfi;
+				TargetAttributes = {
+					171642EE18F24ED1004F3ED0 = {
+						TestTargetID = 171642CA18F24ED1004F3ED0;
+					};
+				};
+			};
+			buildConfigurationList = 171642C618F24ED1004F3ED0 /* Build configuration list for PBXProject "ArchiveOfIndianMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171642C218F24ED1004F3ED0;
+			productRefGroup = 171642CC18F24ED1004F3ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171642CA18F24ED1004F3ED0 /* ArchiveOfIndianMusic */,
+				171642EE18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171642C918F24ED1004F3ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1755E1271906247F00B273EE /* next.png in Resources */,
+				171642EA18F24ED1004F3ED0 /* Images.xcassets in Resources */,
+				176A68DC18FA0E45000EAAE5 /* play.png in Resources */,
+				171642D918F24ED1004F3ED0 /* InfoPlist.strings in Resources */,
+				1755E1281906247F00B273EE /* previous.png in Resources */,
+				176A68DB18FA0E45000EAAE5 /* pause.png in Resources */,
+				171642E218F24ED1004F3ED0 /* Main.storyboard in Resources */,
+				17C2E8091904D6040038B368 /* music.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171642ED18F24ED1004F3ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171642FB18F24ED1004F3ED0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6B8FA329A984849B8F72D5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53A5C964E41429489C8D460 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171642C718F24ED1004F3ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BE73EA18F250E6008FEEC0 /* Track.m in Sources */,
+				171642E518F24ED1004F3ED0 /* PlaylistsViewController.m in Sources */,
+				17BE73DF18F250A8008FEEC0 /* String+URLEncoding.m in Sources */,
+				17BE73E818F250E6008FEEC0 /* Playlist.m in Sources */,
+				171642DB18F24ED1004F3ED0 /* main.m in Sources */,
+				1755E124190601E500B273EE /* PlaylistAudioPlayer.m in Sources */,
+				171642DF18F24ED1004F3ED0 /* ArchiveOfIndianMusicAppDelegate.m in Sources */,
+				17BE73F318F25102008FEEC0 /* SCRestClient.m in Sources */,
+				178F3CD91904B36B007828D9 /* PagedSCPlaylists.m in Sources */,
+				17E642E618F7914B002AA765 /* PlaylistViewController.m in Sources */,
+				171642E818F24ED1004F3ED0 /* GenresViewController.m in Sources */,
+				170507931905FAA900317EAD /* LoadingCellTableViewCell.m in Sources */,
+				176A68D018F9FB01000EAAE5 /* TrackViewController.m in Sources */,
+				171AF03F18F253D0002A37FD /* Track+RestKitMapping.m in Sources */,
+				17BE73F118F25102008FEEC0 /* Playlist+RestKitMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171642EB18F24ED1004F3ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171642FD18F24ED1004F3ED0 /* ArchiveOfIndianMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		171642F518F24ED1004F3ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171642CA18F24ED1004F3ED0 /* ArchiveOfIndianMusic */;
+			targetProxy = 171642F418F24ED1004F3ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		171642D718F24ED1004F3ED0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171642D818F24ED1004F3ED0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		171642E018F24ED1004F3ED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171642E118F24ED1004F3ED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		171642F918F24ED1004F3ED0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171642FA18F24ED1004F3ED0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		171642FE18F24ED1004F3ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		171642FF18F24ED1004F3ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1716430118F24ED1004F3ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA25DDA0148346A28E39882E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiveOfIndianMusic/ArchiveOfIndianMusic-Prefix.pch";
+				INFOPLIST_FILE = "ArchiveOfIndianMusic/ArchiveOfIndianMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1716430218F24ED1004F3ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA25DDA0148346A28E39882E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiveOfIndianMusic/ArchiveOfIndianMusic-Prefix.pch";
+				INFOPLIST_FILE = "ArchiveOfIndianMusic/ArchiveOfIndianMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1716430418F24ED1004F3ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArchiveOfIndianMusic.app/ArchiveOfIndianMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiveOfIndianMusic/ArchiveOfIndianMusic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArchiveOfIndianMusicTests/ArchiveOfIndianMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1716430518F24ED1004F3ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArchiveOfIndianMusic.app/ArchiveOfIndianMusic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiveOfIndianMusic/ArchiveOfIndianMusic-Prefix.pch";
+				INFOPLIST_FILE = "ArchiveOfIndianMusicTests/ArchiveOfIndianMusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171642C618F24ED1004F3ED0 /* Build configuration list for PBXProject "ArchiveOfIndianMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171642FE18F24ED1004F3ED0 /* Debug */,
+				171642FF18F24ED1004F3ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1716430018F24ED1004F3ED0 /* Build configuration list for PBXNativeTarget "ArchiveOfIndianMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1716430118F24ED1004F3ED0 /* Debug */,
+				1716430218F24ED1004F3ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1716430318F24ED1004F3ED0 /* Build configuration list for PBXNativeTarget "ArchiveOfIndianMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1716430418F24ED1004F3ED0 /* Debug */,
+				1716430518F24ED1004F3ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171642C318F24ED1004F3ED0 /* Project object */;
+}
